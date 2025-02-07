@@ -45,5 +45,10 @@
 + build<br>
   `make V=s -j4 || make V=s`
 
++ upgrade<br>
+  1. binary in bin/targets/mediatek/mt7981/$board, name is *-sysupgrade.bin
+  2. upgrade through web ui
+  3. upgrade through ssh/telnet, use sysupgprade cmd
+
 
 
