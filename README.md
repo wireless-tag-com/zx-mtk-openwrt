@@ -18,16 +18,16 @@
   ````
 
 + get default config for specified board
-  * WT7981P(3* GE)<br>
+  * WT7981P(3* GE, NOR +NAND)<br>
   	`make WT7981P_zx`
 
-  * ZX7981PN(1 2.5G + 2 *GE)<br>
+  * ZX7981PN(1 2.5G + 2 *GE, NOR +NAND)<br>
     `make ZX7981PN_zx`
 
-  * ZX7981PG(3 *GE)<br>
+  * ZX7981PG(3 *GE, NAND)<br>
     `make ZX7981PG_zx`
 
-  * ZX7981PM(1 2.5G + 2 *GE + FAN)<br>
+  * ZX7981PM(1 2.5G + 2 *GE + FAN, NAND)<br>
     `make ZX7981PM_zx`
 
   * ZX7981EM(5 *GE + 8GB EMMC + NVME SSD)<br>
